@@ -8,6 +8,100 @@
 ### <span style="color: red;">Problem Statement </span>
 - The primary objective of this project is to extract valuable insights from the available Netflix dataset. These insights should aid Netflix in making informed decisions regarding the types of movies and TV shows to produce and strategize business growth in different countries.
 
+### cream of the project!
+
+#####   <span style="color: navy;">Insights based on Non-Graphical and Visual Analysis</span>
+- Distribution of Netflix collection in Movies is 69.6% and in TV Shows it is 30.4%
+- Netflix collection of Movies spans from Year 1942 to 2021 (i.e 79 Years) and Tv shows span from Year 1925 to 2021 (i.e 96 Years)
+- collection of netflix consist 8807 Titles, 36440 Actors, 4994 Directors, 42 Genre, 124 Countries and  15 Content Ratings are there.
+- features by Number of Title :-
+    - Top 5 Director:-
+        1. Rajiv Chilaka
+        2. Jan Suter
+        3. Raúl Campos
+        4. Marcus Raboy	
+        5. Suhas Kadav
+    - Top 5 Actors:-
+        1. Anupam Kher
+        2. Shah Rukh Khan	
+        3. Julie Tejwani	
+        4. Naseeruddin Shah	
+        5. Takahiro Sakurai
+    - Top 5 Countries:-
+        1. United States	
+        2. India
+        3. United Kingdom	
+        4. Canada
+        5. France
+    - Top 5 Genre:-
+        1. International Movies	
+        2. Dramas
+        3. Comedies
+        4. International TV Shows	
+        5. Documentaries	
+    - Top 5 Content Rating:-
+        1. TV-MA	
+        2. TV-14	
+        3. TV-PG	
+        4. R
+        5. PG-13	
+    - Top 5 Durations 
+        1. 1 season (TV Shows)
+        2. 90-100 Min (Movie)
+        3. 100-110 Min (Movie)
+        4. 110-120 Min (Movie)
+        5. 1-5 Seasons (TV Shows)
+
+- overall July has been observed as highest title additions of 831(9.43%) followed by december at 813(9.23%) titles added, and February with lowest number of additions at 563(6.39%)
+- Friday is most popular to release shows having 2502 (28.04%) addition, while Sunday is the least popular with 752 (8.53%)  additions 
+- in year 2018, 2019 and 2020 before pandamic years No. of Releasing Movies declined and No. of TV Shows Advanced, this shows TV Shows are getting more poplar recently 
+- in year 2021, No. of TV Shows releasing crossed the No. of Movies released , although overall both declined due to pandemic 
+- addition of Shorter Conrent accelerated since 2010, with a staggering 9.8 times compared to before 2010
+- Most of Movies Movies fall under 60-145 Min duration Range
+- It is observed that Netflix is More focused in Mature rated Movies / TV shows 
+- rating of Anime series Genre somewhat Matches with Kids series in the collection, but Kids series is spread in 30 countries in comparison to Anime series only 10 Countries 
+
+#####   <span style="color: navy;">Business Insights</span>
+
+- 81.67% content is produced in top 10 countries and the rest 114 countries contribute 18.33%
+- out of the 114 countries some economically powerful countries are, 
+    1. China
+    2. Australia
+    3. Brazil
+    4. Italy
+    5. Russia
+- Top 4 ratings contribute 79.81% content and the rest 11 rating type 20.19%
+    1. TV-MA (36.41%)
+    2. TV-14 (24.53%)
+    3. TV-PG (9.8%)
+    4. R (9.07%)
+        - It is known that R rating in india has very few titles (6)
+- 93.52% of the content was added in the netfix in 5 years(2017-2021) and the rest 6.48% was added in 9 years (2008 - 2017)
+- Average Duration of Movies is nearly 106 Min and Tv shows is 2 seasons 
+    - we can note here that 1 title count of movie = 106 Min of possible watchtime & 1 title count of TV Show = 2 season of possible watchtime 
+- Top 10 Genre covers 65.77% and the rest 32 Genre covers 34.23% 
+    - out of the rest 32 Genre following can be interesting to explore:-
+        1. TV Comedies 
+        2. Thrillers
+        3. Crime TV Shows 
+        4. Kids TV 
+        5. Docuseries 
+
+#####   <span style="color: navy;">Recommendation</span>
+
+- As seen in the Business Insight, Most of the counry's content potential is yet to unflod, and many regional content is witnessed to breakthrough the popularity in recent years, so it is recommended to search for such regional content that may have the right potential to attract more users with the help of newly introduced novelty!
+- it is understood that out of selective revenue models of netflix, Ad revenue is indeed an important one
+    - as seen in the business insight, a movie has a possibility of 106 minutes of watch time against a Tv show of 2 seasons 
+        - say 2 seasons has around 10 episodes equates to 20 episodes with each assumed duration of 40 minutes totaling to 800 minutes 
+        - in a Tech platform like Netflix, Busines metrics like DAU (Daily active users), WAU (Weekly active users) & MAU (Montly active users) are crucially important to look out for, and the comparison of Movie and TV series, Tv series would increase the watchtime of users, in turn users would be more likely of renewing their subscription as well as more watchtime ensures higher Ad revenues.
+- We can interpret top Genres here as widely accepted genre and content produced under such genre would have higher probability of popularity and acceptance by the audience.
+- countries like Japan, Greece, Italy, Germany etc are known to have higher % of old people, Netflix can study the demographics of all countries to target the most optimal audience, in general it is undoubtedly the Adult users that is targeted but, tailoring the content based on Demographics of country might help expand the userbase.
+- since pandemic, a boom in online education is seen (also known as zoom era), Netflix can tap into this demand and enable content for kids where entertaining education can help expand userbase under "Netflix for kids!"
+
+
+### Contents of the project 
+
+
 ### initial findings
 
 - it is intersting to note that there are as many as 1793 Tv shows that has only 1 season
@@ -115,3 +209,21 @@
 - ![output20](output20.png)
 
 - ![output21](output21.png)
+
+- ![output22](output22.png)
+
+- ![output23](output23.png)
+
+- ![output24](output24.png)
+
+- ![output25](output25.png)
+
+- ![output26](output26.png)
+
+- ![output27](output27.png)
+
+- ![output28](output28.png)
+
+- ![output29](output29.png)
+
+- ![output30](output21.png)
