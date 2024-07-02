@@ -45,5 +45,73 @@
                 df.loc[df[group_col] == group, target_col] = df.loc[df[group_col] == group, target_col].fillna(mode_value)
         return df
 
-    fdf= impute_based_on_mode(fdf, 'country', 'director')
-    fdf= impute_based_on_mode(fdf, 'country', 'cast')```
+        fdf= impute_based_on_mode(fdf, 'country', 'director')
+        fdf= impute_based_on_mode(fdf, 'country', 'cast')```
+
+##### finding outliers 
+
+            def find_outliers(df, column_name):
+        #Q1 (25th percentile) and Q3 (75th percentile)
+        Q1 = df[column_name].quantile(0.25)
+        Q3 = df[column_name].quantile(0.75)
+        IQR = Q3 - Q1
+        
+        # lower and upper bound for outliers
+        lower_bound = Q1 - 1.5 * IQR
+        upper_bound = Q3 + 1.5 * IQR
+        
+        # Find outliers
+        outliers = df[(df[column_name] < lower_bound) | (df[column_name] > upper_bound)]
+        return outliers
+
+#### Univariate Analysis 
+
+- ![output](output.png)
+
+- ![output1](output1.png)
+
+- ![output2](output2.png)
+
+- ![output3](output3.png)
+
+- ![output4](output4.png)
+
+- ![output5](output5.png)
+
+- ![output6](output6.png)
+
+- ![output7](output7.png)
+
+- ![output8](output8.png)
+
+- ![output9](output9.png)
+
+- ![output10](output10.png)
+
+- ![output11](output11.png)
+
+- ![output12](output12.png)
+
+#### Bivariate Analysis 
+
+- ![output13](output13.png)
+
+- ![output14](output14.png)
+
+- ![output15](output15.png)
+
+- ![output16](output16.png)
+
+- ![output17](output17.png)
+
+#### Pair plot
+
+- ![output18](output18.png)
+
+#### Further data Exploration 
+
+- ![output19](output19.png)
+
+- ![output20](output20.png)
+
+- ![output21](output21.png)
