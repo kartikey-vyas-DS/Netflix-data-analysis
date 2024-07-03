@@ -6,7 +6,7 @@
 
 
 ### Check out my medium Blog here 
-- ![CLICK HERE FOR MEDIUM BLOG](https://medium.com/@kvsvyas/exploratory-data-analysis-of-netflix-insights-and-trends-c4c1a3fdb681)
+- [CLICK HERE FOR MEDIUM BLOG](https://medium.com/@kvsvyas/exploratory-data-analysis-of-netflix-insights-and-trends-c4c1a3fdb681)
 
 ### <span style="color: red;">Problem Statement </span>
 - The primary objective of this project is to extract valuable insights from the available Netflix dataset. These insights should aid Netflix in making informed decisions regarding the types of movies and TV shows to produce and strategize business growth in different countries.
